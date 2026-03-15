@@ -1,6 +1,6 @@
 cask "audiolane" do
   version "1.0.0"
-  sha256 "4af3ded0d1507652255e409582d44233d39305960691f55596123c72c07d6e95"
+  sha256 "054d02bc7f47d4c6eab6b372549fb6f7d613d860ffc48c566339490fecb2c8a0"
 
   url "https://github.com/winner14/audiolane/releases/tag/v#{version}/AudioLane.zip"
   name "AudioLane"
