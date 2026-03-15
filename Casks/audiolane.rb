@@ -7,13 +7,12 @@ cask "audiolane" do
   desc "Per-app audio routing for macOS"
   homepage "https://github.com/winner14/audiolane"
 
-  depends_on cask: "blackhole-2ch"
-
   app "AudioLane.app"
 
   postflight do
     system_command "/bin/bash",
-      args: ["-c", "sudo killall coreaudiod || true"]
+      args: ["-c", "brew install blackhole-2ch || brew upgrade blackhole-2ch || true"],
+      sudo: false
   end
 
   zap trash: [
