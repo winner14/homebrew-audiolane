@@ -2,7 +2,7 @@ cask "audiolane" do
   version "1.0.0"
   sha256 "2abbb4d7a4a23509a95579e513793582a8a726f68ce90bc970f83aff0f807040"
 
-  url "https://github.com/winner14/audiolane/releases/download/v#{version}/AudioLane.zip"
+  url "https://github.com/winner14/audiolane/releases/tag/v#{version}/AudioLane.zip"
   name "AudioLane"
   desc "Per-app audio routing for macOS"
   homepage "https://github.com/winner14/audiolane"
