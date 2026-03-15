@@ -7,7 +7,7 @@ cask "audiolane" do
   desc "Per-app audio routing for macOS"
   homepage "https://github.com/winner14/audiolane"
 
-  depends_on formula: "blackhole-2ch"
+  depends_on formula: "blackhole"
 
   app "AudioLane.app"
 
